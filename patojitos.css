@@ -1,0 +1,92 @@
+# Barrio Digital NYC
+
+Primera versión publicable de una microagencia bilingüe para pequeños negocios
+locales de Queens y Nueva York. Incluye la página de ventas de la agencia, una
+demostración para Patojitos Store y documentos para ventas y entrega.
+
+## Antes de publicar
+
+El sitio usa marcadores visibles porque todavía faltan datos reales. Busca
+`_AQUI]` en todos los archivos y reemplaza cada resultado. No publiques el sitio
+hasta revisar esta lista:
+
+- `[NOMBRE_DEFINITIVO_AQUI]`
+- `[WHATSAPP_AQUI]`
+- `[EMAIL_AQUI]`
+- `[INSTAGRAM_AQUI]`
+- `[DOMINIO_AQUI]`
+- Los datos de Patojitos Store: teléfono, WhatsApp, menú, precios, horarios,
+  entregas, pagos y política de pedidos.
+
+Los botones de contacto tienen dos lugares que deben coincidir:
+
+```html
+data-contact-value="[WHATSAPP_AQUI]"
+```
+
+y el texto visible del marcador. Para WhatsApp, escribe el número completo con
+código de país. El JavaScript elimina espacios, paréntesis y guiones al crear el
+enlace.
+
+## Cómo abrir el sitio
+
+La forma más sencilla:
+
+1. Abre esta carpeta.
+2. Haz doble clic en `index.html`.
+3. Prueba también el enlace a `patojitos-demo.html`.
+4. Reduce el ancho de la ventana para revisar la versión móvil.
+
+Para una vista local más parecida a un sitio publicado, si Python está
+instalado:
+
+```powershell
+cd "RUTA\A\barrio-digital-nyc"
+py -m http.server 8000
+```
+
+Después abre `http://localhost:8000` en el navegador. Para detener el servidor,
+vuelve a la ventana de PowerShell y presiona `Ctrl+C`.
+
+## Estructura
+
+```text
+barrio-digital-nyc/
+├── index.html
+├── patojitos-demo.html
+├── assets/
+│   ├── css/
+│   │   ├── main.css
+│   │   └── patojitos.css
+│   ├── images/
+│   │   └── README.md
+│   └── js/
+│       └── main.js
+├── docs/
+│   ├── VENTAS.md
+│   ├── ENTREGA.md
+│   ├── FORMULARIO_CLIENTE.md
+│   ├── PUBLICAR.md
+│   └── PRUEBAS.md
+├── CODEX_START_HERE.md
+└── README.md
+```
+
+## Qué editar
+
+- Contenido de la agencia: `index.html`
+- Contenido de Patojitos Store: `patojitos-demo.html`
+- Colores y diseño de la agencia: `assets/css/main.css`
+- Colores y diseño de Patojitos: `assets/css/patojitos.css`
+- Idioma y enlaces de contacto: `assets/js/main.js`
+- Proceso comercial: carpeta `docs`
+
+No hay dependencias, sistema de compilación ni framework. Los archivos pueden
+publicarse directamente en cualquier servicio de alojamiento para sitios
+estáticos.
+
+## Publicación
+
+Consulta `docs/PUBLICAR.md`. La publicación no se realizó automáticamente:
+primero hay que reemplazar los marcadores, obtener aprobación de Patojitos Store
+y revisar el sitio completo.

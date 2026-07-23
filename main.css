@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Demostración visual de una página informativa para Patojitos Store. El contenido comercial está pendiente de confirmación."
+    >
+    <title>Patojitos Store | Demostración</title>
+    <link rel="stylesheet" href="assets/css/patojitos.css">
+    <script src="assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <div class="demo-banner" role="status">
+      <span aria-hidden="true">●</span>
+      Demostración visual · contenido pendiente de confirmar
+    </div>
+
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="#inicio" aria-label="Patojitos Store, ir al inicio de la demostración">
+          <span class="brand-mark" aria-hidden="true">
+            <span class="brand-heart">♥</span>
+          </span>
+          <span>
+            <strong>Patojitos</strong>
+            <small>Store</small>
+          </span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Navegación principal">
+          <a href="#menu">Menú</a>
+          <a href="#entregas">Entregas</a>
+          <a href="#datos-pendientes">Contacto</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="contenido-principal">
+      <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+        <div class="shell hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span aria-hidden="true">♥</span>
+              Una muestra hecha con cariño
+            </p>
+            <h1 id="titulo-principal">Un rinconcito dulce para presentar cada antojito.</h1>
+            <p class="hero-lede">
+              Así podría verse la página de Patojitos Store: clara, cálida y lista
+              para que cada cliente encuentre lo esencial antes de hacer su pedido.
+            </p>
+
+            <div class="hero-actions">
+              <a class="button button-primary" href="#menu">Ver menú de muestra</a>
+              <a
+                class="button button-secondary"
+                href="#datos-pendientes"
+                data-contact-type="whatsapp"
+                data-contact-value="[WHATSAPP_PATOJITOS_AQUI]"
+              >
+                Consultar por WhatsApp
+              </a>
+            </div>
+
+            <p class="pending-note">
+              <strong>Importante:</strong> esta es una demostración. Productos,
+              precios y datos de atención todavía no son información publicada.
+            </p>
+          </div>
+
+          <div class="hero-card" aria-label="Vista previa del servicio">
+            <div class="hero-card-top">
+              <span class="tiny-label">Tu próximo antojito</span>
+              <span class="heart-chip" aria-hidden="true">♥</span>
+            </div>
+            <div class="plate" aria-hidden="true">
+              <span class="plate-detail plate-detail-one"></span>
+              <span class="plate-detail plate-detail-two"></span>
+              <span class="plate-detail plate-detail-three"></span>
+            </div>
+            <div class="hero-card-product">
+              <div>
+                <span>Producto destacado</span>
+                <strong>[PRODUCTO_1_AQUI]</strong>
+              </div>
+              <b>[PRECIO_1_AQUI]</b>
+            </div>
+            <p>Contenido pendiente de confirmar con el negocio.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Información clave de la demostración">
+        <div class="shell trust-grid">
+          <div>
+            <span class="trust-icon" aria-hidden="true">1</span>
+            <p><strong>Menú visible</strong><small>Productos y precios claros</small></p>
+          </div>
+          <div>
+            <span class="trust-icon" aria-hidden="true">2</span>
+            <p><strong>Pedido sencillo</strong><small>Contacto directo preparado</small></p>
+          </div>
+          <div>
+            <span class="trust-icon" aria-hidden="true">3</span>
+            <p><strong>Datos reunidos</strong><small>Entrega, pagos y horarios</small></p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu-section" id="menu" aria-labelledby="titulo-menu">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Menú de demostración</p>
+              <h2 id="titulo-menu">Lo rico, fácil de encontrar</h2>
+            </div>
+            <p>
+              Estos espacios muestran cómo se organizarían los productos reales.
+              Todos los nombres y precios están pendientes.
+            </p>
+          </div>
+
+          <div class="product-grid">
+            <article class="product-card">
+              <div class="product-visual tone-strawberry" aria-hidden="true">
+                <span class="visual-dot visual-dot-one"></span>
+                <span class="visual-dot visual-dot-two"></span>
+                <span class="visual-center">♥</span>
+              </div>
+              <div class="product-copy">
+                <p class="product-status">Contenido pendiente</p>
+                <h3>[PRODUCTO_1_AQUI]</h3>
+                <p>Descripción y presentación del producto por confirmar.</p>
+                <div class="product-bottom">
+                  <strong>[PRECIO_1_AQUI]</strong>
+                  <a
+                    class="mini-button"
+                    href="#datos-pendientes"
+                    data-contact-type="whatsapp"
+                    data-contact-value="[WHATSAPP_PATOJITOS_AQUI]"
+                  >
+                    Consultar
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual tone-vanilla" aria-hidden="true">
+                <span class="visual-dot visual-dot-one"></span>
+                <span class="visual-dot visual-dot-two"></span>
+                <span class="visual-center">♥</span>
+              </div>
+              <div class="product-copy">
+                <p class="product-status">Contenido pendiente</p>
+                <h3>[PRODUCTO_2_AQUI]</h3>
+                <p>Descripción y presentación del producto por confirmar.</p>
+                <div class="product-bottom">
+                  <strong>[PRECIO_2_AQUI]</strong>
+                  <a
+                    class="mini-button"
+                    href="#datos-pendientes"
+                    data-contact-type="whatsapp"
+                    data-contact-value="[WHATSAPP_PATOJITOS_AQUI]"
+                  >
+                    Consultar
+                  </a>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <div class="product-visual tone-cocoa" aria-hidden="true">
+                <span class="visual-dot visual-dot-one"></span>
+                <span class="visual-dot visual-dot-two"></span>
+                <span class="visual-center">♥</span>
+              </div>
+              <div class="product-copy">
+                <p class="product-status">Contenido pendiente</p>
+                <h3>[PRODUCTO_3_AQUI]</h3>
+                <p>Descripción y presentación del producto por confirmar.</p>
+                <div class="product-bottom">
+                  <strong>[PRECIO_3_AQUI]</strong>
+                  <a
+                    class="mini-button"
+                    href="#datos-pendientes"
+                    data-contact-type="whatsapp"
+                    data-contact-value="[WHATSAPP_PATOJITOS_AQUI]"
+                  >
+                    Consultar
+                  </a>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <aside class="menu-disclaimer">
+            <span aria-hidden="true">i</span>
+            <p>
+              <strong>Este menú es solo una maqueta.</strong>
+              El negocio debe confirmar productos, tamaños, disponibilidad y precios
+              antes de publicarlo.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section details-section" id="entregas" aria-labelledby="titulo-detalles">
+        <div class="shell">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Todo antes de pedir</p>
+              <h2 id="titulo-detalles">Información clara y a la mano</h2>
+            </div>
+            <p>
+              Aquí vivirán las respuestas que ayudan a comprar con tranquilidad.
+            </p>
+          </div>
+
+          <div class="detail-grid">
+            <article class="detail-card">
+              <span class="detail-number" aria-hidden="true">01</span>
+              <h3>Zona de entrega</h3>
+              <p class="placeholder">[ZONA_DE_ENTREGA_AQUI]</p>
+              <small>Pendiente: cobertura, costo y condiciones.</small>
+            </article>
+
+            <article class="detail-card">
+              <span class="detail-number" aria-hidden="true">02</span>
+              <h3>Horarios</h3>
+              <p class="placeholder">[HORARIOS_AQUI]</p>
+              <small>Pendiente: días y horas de atención.</small>
+            </article>
+
+            <article class="detail-card">
+              <span class="detail-number" aria-hidden="true">03</span>
+              <h3>Métodos de pago</h3>
+              <p class="placeholder">[METODOS_DE_PAGO_AQUI]</p>
+              <small>Pendiente: opciones aceptadas por el negocio.</small>
+            </article>
+          </div>
+
+          <div class="order-policy">
+            <div class="policy-mark" aria-hidden="true">♥</div>
+            <div>
+              <p class="eyebrow">Para cuidar cada pedido</p>
+              <h3>Política de pedidos</h3>
+              <p class="placeholder">[POLITICA_DE_PEDIDOS_AQUI]</p>
+              <small>
+                Pendiente: anticipación, confirmación, cambios y cancelaciones.
+              </small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="section contact-section"
+        id="datos-pendientes"
+        aria-labelledby="titulo-contacto"
+      >
+        <div class="shell contact-shell">
+          <div class="contact-copy">
+            <p class="eyebrow">Contacto de demostración</p>
+            <h2 id="titulo-contacto">¿Lista para convertir un antojo en pedido?</h2>
+            <p>
+              Cuando el número real esté confirmado, este botón podrá abrir una
+              conversación directa con Patojitos Store.
+            </p>
+            <div class="contact-value">
+              <span>WhatsApp pendiente</span>
+              <strong>[WHATSAPP_PATOJITOS_AQUI]</strong>
+            </div>
+            <a
+              class="button button-light"
+              href="#datos-pendientes"
+              data-contact-type="whatsapp"
+              data-contact-value="[WHATSAPP_PATOJITOS_AQUI]"
+            >
+              WhatsApp aún no disponible
+            </a>
+          </div>
+
+          <aside class="pending-panel" aria-labelledby="titulo-pendientes">
+            <h3 id="titulo-pendientes">Datos necesarios para publicar</h3>
+            <ul>
+              <li>Menú y precios finales</li>
+              <li>WhatsApp del negocio</li>
+              <li>Zona y condiciones de entrega</li>
+              <li>Horarios, pagos y política de pedidos</li>
+            </ul>
+            <p>
+              <strong>Estado:</strong> demostración visual; contenido comercial
+              pendiente de validación.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <div>
+          <strong>Patojitos Store · Demostración</strong>
+          <p>No representa información comercial confirmada.</p>
+        </div>
+        <a class="back-link" href="index.html">
+          <span aria-hidden="true">←</span>
+          Regresar a Barrio Digital NYC
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
